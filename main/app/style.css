@@ -1,0 +1,33 @@
+p{
+ color: apple_green;   
+    font-size: 14px;
+}
+h1 {
+    color:greenyellow;
+    fontsize: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-emphasis-style: bold;
+}
+h2  {
+    color: greenyellow;
+    font-size: 40px;
+    text-emphasis-style: bold;
+}
+h3 {
+    color: greenyellow;
+    font-size: 30px;
+    text-emphasis-style: bold;
+}
+body {
+    background-gradient: linear-gradient(to right, sky_blue, lightblue);
+    background-size: cover;
+}
+button{
+    color: white;
+}
+header {
+    background-color: turquoise;
+    padding: 20px
+    border: 10px solid darkturquoise;
+}

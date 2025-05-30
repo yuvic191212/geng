@@ -7,7 +7,11 @@ export const metadata = {
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
       <html lang="en">
-        <body>{children}</body>
+        <body>
+           <header>
+             <h1> YENGINE </h1>
+             </header>
+            {children}</body>
       </html>
     );
 }

@@ -6,20 +6,21 @@
   "scripts": {
     "start": "next start",
     "dev": "next dev",
-    "build":"next build",
-    "debug":"next lint"
-
+    "build": "next build",
+    "debug": "next lint"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "next": "latest",
     "react": "latest",
     "reactdom": "latest",
-    "dotenv": "^16.3.1",
     "ssh2": "^1.11.0",
     "webpack": "^5.99.9",
-  "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
-    "nodemon": "^3.0.0"
+    "@types/react": "19.1.6",
+    "nodemon": "^3.0.0",
+    "typescript": "5.8.3"
   }
 }

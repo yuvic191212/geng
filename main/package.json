@@ -4,13 +4,16 @@
   "description": "A game engine",
   "main": "start.js",
   "scripts": {
-    "start": "node start.js",
-    "dev": "nodemon start.js"
+    "start": "next start",
+    "dev": "next dev",
+    "build":"next build",
+    "debug":"next lint"
+
   },
   "dependencies": {
-    "next": "@latest",
-    "react": "@latest",
-    "reactdom": "@latest",
+    "next": "latest",
+    "react": "latest",
+    "reactdom": "latest",
     "dotenv": "^16.3.1",
     "ssh2": "^1.11.0",
     "webpack": "^5.99.9",

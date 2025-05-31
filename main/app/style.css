@@ -1,15 +1,15 @@
-p{
- color: apple_green;   
+p {
+    color: greenyellow;   
     font-size: 14px;
 }
 h1 {
-    color:greenyellow;
-    fontsize: 60px;
+    color: greenyellow;
+    font-size: 60px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     text-emphasis-style: bold;
 }
-h2  {
+h2 {
     color: greenyellow;
     font-size: 40px;
     text-emphasis-style: bold;
@@ -20,14 +20,28 @@ h3 {
     text-emphasis-style: bold;
 }
 body {
-    background-gradient: linear-gradient(to right, sky_blue, lightblue);
+    /* Fixed gradient syntax and color names */
+    background: linear-gradient(to right, skyblue, lightblue);
     background-size: cover;
-}
-button{
-    color: white;
 }
 header {
     background-color: turquoise;
-    padding: 20px
+    padding: 20px;
     border: 10px solid darkturquoise;
+}
+a.button-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    transition: background 0.2s;
+}
+a.button-link:hover {
+    background: #005bb5;
 }

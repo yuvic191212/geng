@@ -1,0 +1,53 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/style.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+p {
+    color: greenyellow;   
+    font-size: 14px;
+}
+h1 {
+    color: greenyellow;
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-emphasis-style: bold;
+            text-emphasis-style: bold;
+}
+h2 {
+    color: greenyellow;
+    font-size: 40px;
+    -webkit-text-emphasis-style: bold;
+            text-emphasis-style: bold;
+}
+h3 {
+    color: greenyellow;
+    font-size: 30px;
+    -webkit-text-emphasis-style: bold;
+            text-emphasis-style: bold;
+}
+body {
+    /* Fixed gradient syntax and color names */
+    background: linear-gradient(to right, skyblue, lightblue);
+    background-size: cover;
+}
+header {
+    background-color: turquoise;
+    padding: 20px;
+    border: 10px solid darkturquoise;
+}
+a.button-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    transition: background 0.2s;
+}
+a.button-link:hover {
+    background: #005bb5;
+}

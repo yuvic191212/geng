@@ -16,7 +16,8 @@
     "reactdom": "latest",
     "ssh2": "^1.11.0",
     "webpack": "^5.99.9",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "next-auth": "latest"
   },
   "devDependencies": {
     "@types/react": "19.1.6",

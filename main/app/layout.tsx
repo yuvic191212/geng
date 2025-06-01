@@ -9,9 +9,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <html lang="en">
         <body>
            <header>
-             <h1> YENGINE </h1>
-             </header>
-            {children}</body>
+             <div className='horizontal-layout'>
+               <div className='box'>
+                 <h1> YENGINE </h1>
+               </div>
+             </div>
+           </header>
+           {children}
+        </body>
       </html>
     );
 }

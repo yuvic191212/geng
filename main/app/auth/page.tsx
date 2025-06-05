@@ -1,9 +1,10 @@
 import { redirect } from "next/navigation"
 import { headers } from "next/headers"
 
-export default function AuthPage({ searchParams }: { searchParams: { [key: string]: string | undefined } }) {
-    const redirectsite = searchParams.redirect || "/"
-    const cookie = headers().get("cookie")
+export default async function AuthPage({ searchParams }: { searchParams: Promise<{ [key: string]: string | undefined }> }) {
+    const params = await searchParams
+    const redirectsite = params.redirect || "/"
+    const cookie = (await headers()).get("cookie")
     if (cookie && cookie.includes("auth_token")) {
         redirect(redirectsite)
     }
